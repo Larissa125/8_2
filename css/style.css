@@ -1,0 +1,124 @@
+
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+ol li,
+ul li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	background-color: rgba(192, 192, 192, 0.329);
+	font-family: "FuturaFuturisLightC";
+	height: 100%;
+	font-size: 14px;
+	line-height: 1;
+}
+/* -------------- */
+
+.content {
+	padding: 100px;
+	max-width: 1500px;
+
+}
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	background-color: #f8f8f8;
+	max-width: 1590px;
+	margin: 150px 0px 0px 150px;
+}
+
+h1 {
+	font-family: "Poppins";
+	font-size: 28px;
+	font-weight: 600;
+}
+.text1 {
+	font-family: "Poppins";
+	font-size: 16px;
+	max-width: 600px;
+	line-height: 24px;
+	
+}
+.adress {
+	font-family: "Poppins";
+	font-size: 14px;
+	max-width: 210px;
+	line-height: 24px;
+	margin: 25px 0px 30px 90px;
+	
+}
+
+
+.link {
+	font-family: "Poppins";
+	font-size: 14px;
+	max-width: 200px;
+	line-height: 20px;
+	margin: 25px 0px 0px 30px;
+	
+}
+.link2 {
+	font-family: "Poppins";
+	font-size: 14px;
+	max-width: 200px;
+	line-height: 35px;
+	margin: 25px 0px 30px 30px;
+}
+
+.adress::before {
+	text-align: center;
+	content: "";
+	background: url(../img/room.png) 0 0/100% no-repeat;
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	margin: -20px 20px -40px -90px;
+	
+}
+
+.link::before {
+		content: "";
+	background: url(../img/call.png) 0 0/100% no-repeat;
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	margin: -15px 20px -18px -21px;
+}
+.link2::before {
+		content: "";
+	background: url(../img/🔹\ Icon\ Color.png) 0 0/100% no-repeat;
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	margin: 60px 20px -19px -20px;
+}
+.images {
+margin: auto;
+}
